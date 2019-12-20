@@ -1,0 +1,109 @@
+header{
+    margin-bottom: 34px;
+}
+h1{
+    background-image: url(img/sobre-background.jpg);
+    padding: 10px;
+    font-size: 50px;
+}
+h2{
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+    font-size: 25px;
+}
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+}
+figure{
+    padding: 15px;
+    margin: 30px;
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+figcaption{
+    margin-top: 10px;
+    font-style: italic;
+}
+#centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+.container{
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+.sacola{
+    background-image: url('/img/sacola.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: top right;
+    width: 140px;
+    padding-top: 8px;
+    padding-right: 35px;
+    font-size: 14px;
+    
+}
+.menuNav{
+   
+    position: absolute;
+    right: 0;
+}
+.menuNav li{
+    display: inline;
+    padding: 0 5px;
+}
+
+footer{
+    background-image: url('/img/fundo-rodape.png');
+}
+footer .container{
+    position: relative;
+    padding: 20px 0;    
+}
+.social{
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+.social a{
+    width: 32px;
+    height: 32px;
+    display: block;
+
+}
+.social a[href*="facebook.com"]{
+    background-image: url('/img/facebook.png');
+}
+.social a[href*="twitter.com"]{
+    background-image: url('/img/twitter.png');
+}
+.social a[href*="google.com"]{
+    background-image: url('/img/googleplus.png');
+}
+.social li{
+    float: left;
+    margin-left: 25px;
+}
+div[class*="principal"]{
+    margin-bottom: 25px;
+}
+p::first-letter{
+    font-style: italic;
+}
+h1 + p{
+    text-indent:0;
+}
+p::first-line{
+    font-variant: small-caps;
+}
